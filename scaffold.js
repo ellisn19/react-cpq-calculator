@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 
 const dirs = [
-	'public',
 	'src',
 	'src/assets',
 	'src/components',
@@ -14,7 +13,7 @@ const dirs = [
 ];
 
 const files = {
-	'public/index.html':
+	'index.html':
 		'<!DOCTYPE html>\n<html>\n<head><title>React CPQ Calculator</title></head>\n<body><div id="root"></div></body>\n</html>',
 	'src/index.js':
 		"import React from 'react';\nimport ReactDOM from 'react-dom/client';\nimport App from './App';\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<App />);",
