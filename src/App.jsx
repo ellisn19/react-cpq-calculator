@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function App() {
-  return <div>React CPQ Calculator</div>;
+	return <h1>Hello React CPQ Calculator</h1>;
 }
