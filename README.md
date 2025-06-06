@@ -1,4 +1,4 @@
-## React CPQ Calculator
+## React Configure-Price-Quote Calculator
 
 This project is a lightweight CPQ (Configure, Price, Quote) calculator built in React. It simulates the core functionality of Salesforce CPQ by allowing users to:
 
